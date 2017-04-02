@@ -3,7 +3,6 @@ close all
 clc
 
 addpath(genpath('spasm'));
-addpath(genpath('STDAforERP_Demo'));
 %% set parameters
 dim=32;
 channel=1:10;
