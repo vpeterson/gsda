@@ -9,6 +9,12 @@ function [class, posterb] = LDAClassify(X,classmode)
 % 
 % Yu Zhang, RIKEN & ECUST, 2012.01.17
 %
+%--------------------------------------------------------------------
+% NOTE:
+% THIS FUNCTION IS PART OF THE TOOLBOX STASTDAforERP_Demo. 
+% you can download the full toolbox from 
+%https://www.mathworks.com/matlabcentral/fileexchange/47527-stdaforerp-demo-zip?focused=3832436&tab=function
+%---------------------------------------------------------------------
 
 Me=classmode.mean;
 invSn=classmode.invSn;
