@@ -19,7 +19,7 @@ function KL=kld(target, nontarget, Nbars, type)
 %
 % V. Peterson
 
-if nargin<5
+if nargin<4
     type='sym';
 end
 
